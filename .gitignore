@@ -2,3 +2,16 @@
 
 *.rar
 *.zip
+*.pidb
+
+*.exe
+
+*.mdb
+
+*.userprefs
+
+*.dll
+
+*.pdb
+
+*.manifest
