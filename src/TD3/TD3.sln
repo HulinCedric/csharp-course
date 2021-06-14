@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice1", "Exercice1\Exercice1.csproj", "{392B5AD6-D762-43EB-87B3-FC762CF253FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice2", "Exercice2\Exercice2.csproj", "{811A1595-070D-4796-914A-6BDF9C839ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice3", "Exercice3\Exercice3.csproj", "{2955FD2F-D1C0-404C-A62E-A7F37CAAB0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbreDLL", "ArbreDLL\ArbreDLL.csproj", "{E4AE70FA-3259-4936-987A-839DD135F359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborateurDLL", "CollaborateurDLL\CollaborateurDLL.csproj", "{AD623303-A9EE-4E63-86C4-EEF4010D4060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2955FD2F-D1C0-404C-A62E-A7F37CAAB0DA}.Debug|x86.ActiveCfg = Debug|x86
+		{2955FD2F-D1C0-404C-A62E-A7F37CAAB0DA}.Debug|x86.Build.0 = Debug|x86
+		{2955FD2F-D1C0-404C-A62E-A7F37CAAB0DA}.Release|x86.ActiveCfg = Release|x86
+		{2955FD2F-D1C0-404C-A62E-A7F37CAAB0DA}.Release|x86.Build.0 = Release|x86
+		{392B5AD6-D762-43EB-87B3-FC762CF253FA}.Debug|x86.ActiveCfg = Debug|x86
+		{392B5AD6-D762-43EB-87B3-FC762CF253FA}.Debug|x86.Build.0 = Debug|x86
+		{392B5AD6-D762-43EB-87B3-FC762CF253FA}.Release|x86.ActiveCfg = Release|x86
+		{392B5AD6-D762-43EB-87B3-FC762CF253FA}.Release|x86.Build.0 = Release|x86
+		{811A1595-070D-4796-914A-6BDF9C839ADA}.Debug|x86.ActiveCfg = Debug|x86
+		{811A1595-070D-4796-914A-6BDF9C839ADA}.Debug|x86.Build.0 = Debug|x86
+		{811A1595-070D-4796-914A-6BDF9C839ADA}.Release|x86.ActiveCfg = Release|x86
+		{811A1595-070D-4796-914A-6BDF9C839ADA}.Release|x86.Build.0 = Release|x86
+		{AD623303-A9EE-4E63-86C4-EEF4010D4060}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD623303-A9EE-4E63-86C4-EEF4010D4060}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD623303-A9EE-4E63-86C4-EEF4010D4060}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD623303-A9EE-4E63-86C4-EEF4010D4060}.Release|x86.Build.0 = Release|Any CPU
+		{E4AE70FA-3259-4936-987A-839DD135F359}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E4AE70FA-3259-4936-987A-839DD135F359}.Debug|x86.Build.0 = Debug|Any CPU
+		{E4AE70FA-3259-4936-987A-839DD135F359}.Release|x86.ActiveCfg = Release|Any CPU
+		{E4AE70FA-3259-4936-987A-839DD135F359}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Exercice2\Exercice2.csproj
+	EndGlobalSection
+EndGlobal
