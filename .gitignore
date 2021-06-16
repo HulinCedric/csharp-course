@@ -15,3 +15,7 @@
 *.pdb
 
 *.manifest
+
+*csproj.FileListAbsolute.txt
+
+*.suo
