@@ -19,3 +19,7 @@
 *csproj.FileListAbsolute.txt
 
 *.suo
+
+*.Cache
+
+*.resources
