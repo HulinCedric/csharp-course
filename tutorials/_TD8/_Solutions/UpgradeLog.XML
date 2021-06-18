@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TD6 - Reut.Compo">
+</Property><Property Name="Fichier solution" Value="C:\Documents and Settings\HULIN\Bureau\TD6 - Reut.Compo\TD6 - Reut.Compo\TD6 - Reut.Compo.sln">
+</Property><Property Name="Date" Value="jeudi 25 mars 2010">
+</Property><Property Name="Time" Value="20:38:15">
+</Property></Properties><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="TD6 - Reut.Compo.csproj" Description="Fichier projet correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\TD6 - Reut.Compo.csproj">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Form1.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Form1.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Program.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Properties\AssemblyInfo.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Properties\Resources.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Properties\Settings.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableAffectation.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableAffectation.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableAffectation.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableAffectation.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableEtudiant.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableEtudiant.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableEtudiant.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableEtudiant.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableStage.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableStage.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableStage.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableStage.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableStageTableau.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableStageTableau.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableStageTableau.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableStageTableau.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="_TD6_ReutCompoDataSet.Designer.cs" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\_TD6_ReutCompoDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="app.config" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Properties\Settings.settings" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="_TD6_ReutCompoDataSet.xsc" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\_TD6_ReutCompoDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="_TD6_ReutCompoDataSet.xsd" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\_TD6_ReutCompoDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="_TD6_ReutCompoDataSet.xss" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\_TD6_ReutCompoDataSet.xss">
+</Event><Event ErrorLevel="2" Project="TD6 - Reut.Compo" Source="TD6-ReutCompo.mdb" Description="Échec de la sauvegarde du fichier avec le nom C:\Documents and Settings\HULIN\Bureau\Backup\TD6-ReutCompo.mdb">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Form1.resx" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="Properties\Resources.resx" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableAffectation.resx" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableAffectation.resx">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableEtudiant.resx" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableEtudiant.resx">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableStage.resx" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableStage.resx">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="tableStageTableau.resx" Description="Fichier correctement sauvegardé en tant que C:\Documents and Settings\HULIN\Bureau\Backup\tableStageTableau.resx">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="TD6 - Reut.Compo.csproj" Description="Projet correctement converti">
+</Event><Event ErrorLevel="3" Project="TD6 - Reut.Compo" Source="TD6 - Reut.Compo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TD6 - Reut.Compo" Source="TD6 - Reut.Compo.csproj" Description="Analyse terminée : la mise à niveau n'est pas requise pour les fichiers projet.">
+</Event></UpgradeLog>
