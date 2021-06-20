@@ -7,14 +7,14 @@ namespace Exercice1
 		private string nom;
 		private string localisation;
 		private int nbMachines;
-		private decimal temperatureSurchauffeMaximal;
+		private float temperatureSurchauffeMaximal;
 		
 		public Controleur ()
 		{
 			nom= "Default";
 			localisation= "Default";
 			nbMachines= 0;
-			temperatureSurchauffeMaximal= 0;
+			temperatureSurchauffeMaximal= 0.0f;
 		}
 		
 		public Controleur (string nom, string localisation)
@@ -22,7 +22,7 @@ namespace Exercice1
 			this.nom= nom;
 			this.localisation= localisation;
 			nbMachines= 0;
-			temperatureSurchauffeMaximal= 0;
+			temperatureSurchauffeMaximal= 0.0f;
 		}
 		
 		public string Nom
@@ -42,14 +42,14 @@ namespace Exercice1
 			get { return nbMachines; }
 		}
 		
-		public decimal TemperatureSurchauffeMaximal
+		public float TemperatureSurchauffeMaximal
 		{
 			get { return temperatureSurchauffeMaximal; }
 		}
 
-		public void Surveiller (object sender, TemperatureTropHauteEventArgs e)
+		public void Surveiller (object sender, SurchauffeEventArgs e)
 		{
-			Console.Beep(1500, 3000);
+			Console.Beep();
 			nbMachines++;
 			if (e.Temperature > temperatureSurchauffeMaximal)
 				temperatureSurchauffeMaximal= e.Temperature;

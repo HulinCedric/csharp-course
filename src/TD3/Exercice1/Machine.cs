@@ -4,33 +4,25 @@ namespace Exercice1
 {
 	public class Machine
 	{
-		public delegate void TemperatureTropHauteHandler(object sender, TemperatureTropHauteEventArgs e);
-		public event TemperatureTropHauteHandler TemperatureTropHaute;
-		
-		// Nom de la machine
-		//
 		private string nom;
+		private float temperature;
+		private float seuilLimiteTemperature;
 		
-		// Temperature observée
-		//
-		private decimal temperature;
-		
-		// Temperature maximale
-		//
-		private decimal seuil;
+		public delegate void SurchauffeEventHandler(object sender, SurchauffeEventArgs e);
+		public event SurchauffeEventHandler Surchauffe;
 		
 		public Machine()
 		{
 			nom= "Default";
-			temperature= 0;
-			seuil= 0;
+			temperature= 0.0f;
+			seuilLimiteTemperature= 0.0f;
 		}
 		
-		public Machine(string nom, decimal temperature, decimal seuil)
+		public Machine(string nom, float temperature, float seuilLimiteTemperature)
 		{
 			this.nom= nom;
 			this.temperature= temperature;
-			this.seuil= seuil;
+			this.seuilLimiteTemperature= seuilLimiteTemperature;
 		}
 		
 		public string Nom
@@ -39,33 +31,28 @@ namespace Exercice1
 			set { nom= value; }
 		}
 		
-		public decimal Temperature
+		public float Temperature
 		{
 			get { return temperature; }
 			set 
 			{ 
 				temperature= value;
 				
-				if (temperature > seuil)
-					OnTemperatureTropHaute(nom, temperature, seuil);
+				if (temperature > seuilLimiteTemperature)
+					OnSurchauffe(nom, temperature, seuilLimiteTemperature);
 			}
 		}
 		
-		public decimal Seuil
+		public float SeuilLimiteTemperature
 		{
-			get { return seuil; }
-			set { seuil= value; }
+			get { return seuilLimiteTemperature; }
+			set { seuilLimiteTemperature= value; }
 		}
 		
-		public override string ToString()
-		{
-			return "Machine : " + nom + "\tSeuil : " + seuil + "\tTemperature : " + temperature;
-		}
-		
-		public void OnTemperatureTropHaute(string nom, decimal temperature, decimal seuil)
+		public void OnSurchauffe(string nom, float temperature, float seuilLimiteTemperature)
         {
-            if (TemperatureTropHaute != null)
-                TemperatureTropHaute(this, new TemperatureTropHauteEventArgs(nom, temperature, seuil));
+            if (Surchauffe != null)
+                Surchauffe(this, new SurchauffeEventArgs(nom, temperature, seuilLimiteTemperature));
         }
 	}
 }

@@ -84,7 +84,7 @@ namespace Exercice2
 			}
             else 
 			{
-				if (arbreDroit.vide) 
+				if (arbreDroit.vide == true) 
 				{ 
 					val= valeurRacine; 
 					Noeud= this;  
@@ -92,6 +92,8 @@ namespace Exercice2
             		else arbreDroit.Max(out val, out Noeud);
 			}
         }
+
+
 
         public void Remove(T val)
         {
@@ -123,7 +125,7 @@ namespace Exercice2
 									arbreGauche.Max(out max, out  N); 
 									valeurRacine= max; 
 									N.vide= true; 
-								}
+								} 
 							}
 						}
 					}
