@@ -6,24 +6,38 @@ namespace Exercice2
 	{
 		public static void Main (string[] args)
 		{	
-			Tauren Diablon=new Tauren("Diablon", "15");
-			Diablon.Animer();
-			Diablon.seBattre();
-			
-			Orc Azag=new Orc("Azag", "5");
-			Azag.Animer();
-			Azag.seBattre();
-			
-			Troll ArKor= new Troll("ArKor", "Heinken");
-			ArKor.Animer();	
-			ArKor.seBattre();
-			
-			Humain Kir= new Humain("Kir", "Bleu");
-			Kir.Animer();
-			Kir.seBattre();
-			
-			Diablon.Arme=new CombatEpee();
-			Diablon.seBattre();
+		 	Personnage p1;
+            Personnage p2;
+            Personnage p3;
+            Personnage p4;
+            
+
+            // Contexte de stratégies différentes
+            p1 = new Orc("Azag",5);
+            p1.Combat();
+            Console.WriteLine(p1);
+            Console.WriteLine();
+
+
+            p2 = new Tauren("Diablon",15);
+            p2.Combat();
+            Console.WriteLine(p2);
+            Console.WriteLine();
+
+            p3 = new Troll("Arkor","Heinken");
+            p3.Combat();
+            Console.WriteLine(p3);
+            Console.WriteLine();
+
+            p4 = new Humain("Kir","Bleu");
+            p4.Combat();
+            Console.WriteLine(p4);
+            Console.WriteLine();
+
+            p2.Stategy = new AvecEpéé();
+            p2.Combat();
+            Console.WriteLine(p2);
+            Console.WriteLine();
 		}
 	}
 }

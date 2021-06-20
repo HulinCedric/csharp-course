@@ -2,117 +2,76 @@ using System;
 
 namespace Exercice2
 {
-	public abstract class Personnage
-	{
-		private string nom;
-		private Arme arme;
+	
 
-		public Personnage (string nom, Arme arme)
-		{
-			this.nom = nom;
-			this.arme = arme;
-		}
+    // Context 
+    abstract class Personnage
+    {
+       protected ComportementSeBattre strategy;
+       string nom;
+      
+        // Constructeur prévu dans le pattern Stategy, ici comportement par défaut à la création
+       public Personnage(string nom)
+       {
+           this.nom = nom;
+       }
+            
 
-		public string Nom {
-			get { return nom; }
-			set { nom = value; }
-		}
 
-		public Arme Arme {
-			get { return arme; }
-			set { 
-				arme = value; 
-				Console.WriteLine(nom + " change d'arme : " + arme.Afficher());
-			}
-		}
-		
-		public abstract void Animer();
+        /* public Personnage(string nom, ComportementSeBattre strategy)
+        {
+            this.strategy = strategy;
+            this.nom=nom;
+            
+        }*/
 
-		public void seBattre ()
-		{
-			Console.WriteLine (nom + " combat avec " + arme.Afficher ());
-		}
-	}
 
-	public class Humain : Personnage
-	{
-		private string oeil;
+        // les personnages peuvent par contre changer d'arme
+       public ComportementSeBattre Stategy
+       {
+           get { return strategy; }
+           set { strategy = value; }
+       }
+        
+       
 
-		public Humain (string nom, string oeil) : base(nom, new CombatEpee ())
-		{
-			this.oeil = oeil;
-		}
+        public  void Combat(){strategy.SeBattre();}
 
-		public string Oeil {
-			get { return oeil; }
-			set { oeil = value; }
-		}
+        public override string ToString()
+        {
+            return nom + '\t' + strategy.ToString();
+        }
+       
+    }
 
-		public override void Animer ()
-		{
-			Console.WriteLine(Nom + "\tRace : Humain\tArme : " + Arme.Afficher () + "\tOeil : " + oeil);
-		}
-	}
+    class Humain : Personnage
+    {
+        string couleur;
+        public Humain(string nom, string couleur) : base(nom) { strategy = new AvecEpéé(); this.couleur = couleur; }
+        
+    }
 
-	public class Troll : Personnage
-	{
-		private string biere;
+    
 
-		public Troll (string nom, string biere) : base(nom, new CombatDague ())
-		{
-			this.biere = biere;
-		}
-		
-		public string Biere {
-			get { return biere; }
-			set { biere = value; }
-		}
+    class Orc : Personnage
+    {
+        int taille_Or;
+        public Orc(string nom, int taille_Or) : base(nom) { strategy = new AvecEpéé(); this.taille_Or = taille_Or; }
+        
+    }
 
-		public override void Animer ()
-		{
-			Console.WriteLine(Nom + "\tRace : Troll\tArme : " + Arme.Afficher () + "\tBiere : " + biere);
-		}
-	}
+    class Tauren : Personnage
+    {
+        int taille_Cor;
+        public Tauren(string nom, int taille_Cor) : base(nom) { strategy = new AvecBouclier(); this.taille_Cor = taille_Cor; }
+        
+    }
 
-	public class Orc : Personnage
-	{
-		private string tailleOreilles;
 
-		public Orc (string nom, string tailleOreilles) : base(nom, new CombatEpee ())
-		{
-			this.tailleOreilles = tailleOreilles;
-		}
-		
-		public string TailleOreilles
-		{
-			get { return tailleOreilles; }
-			set { tailleOreilles = value; }
-		}
-
-		public override void Animer ()
-		{
-			Console.WriteLine(Nom + "\tRace : Orc\tArme : " + Arme.Afficher () + "\tTaille des oreilles : " + tailleOreilles);
-		}
-	}
-
-	public class Tauren : Personnage
-	{
-		private string tailleCorne;
-
-		public Tauren (string nom, string tailleCorne) : base(nom, new CombatBouclier ())
-		{
-			this.tailleCorne = tailleCorne;
-		}
-
-		public string TailleCorne
-		{
-			get { return tailleCorne; }
-			set { tailleCorne = value; }
-		}
-		
-		public override void Animer ()
-		{
-			Console.WriteLine(Nom + "\tRace : Tauren\tArme : " + Arme.Afficher () + "\tTaille Corne : " + tailleCorne);
-		}
-	}
+    class Troll : Personnage
+    {
+        string nom_Biere;
+        public Troll(string nom, string nom_Biere) : base(nom) { strategy = new AvecDague(); this.nom_Biere = nom_Biere; }
+        
+    }
 }
